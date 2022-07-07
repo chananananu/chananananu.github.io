@@ -65,19 +65,19 @@
         <p class="text-6xl text-dark font-medium pb-12">👋 Hello, I’m <span class="text-blue">Anu</span></p>
         <p class="text-4xl text-dark pb-3 font-light tracking-wide">This is my online portfolio! I will try to learn about UX/UI design</p>
         <p class="text-4xl text-dark pb-12 font-light tracking-wide">and I want to make a <span class="text-blue">better experience for users</span></p>
-        <p class="text-2xl text-dark underline underline-offset-4 font-light"><a href="#work"><span class="fi fi-rr-arrow-down"></span>Check out my work</a></p>
+        <p class="text-2xl text-dark underline underline-offset-4 font-light"><a href="#work"><i class="fi fi-rr-arrow-down"></i> Check out my work</a></p>
     </div>
     <!-- works -->
     <!-- in-class work -->
     <div class="max-w-7xl mx-auto px-4">
-        <p class="text-xl text-dark uppercase font-medium pb-9"><span class="fi fi-rr-minus"></span>  in-class works</p>
+        <p id="work" class="text-xl text-dark uppercase font-medium pb-9"><span class="fi fi-rr-minus"></span>  in-class works</p>
         <div class="grid grid-cols-2 gap-7">
             <!-- 1 -->
-            <div id="#work" class="w-full h-full">
+            <div class="w-full h-full">
                 <div class="h-full rounded-xl shadow-slate-200 shadow-xl hover:shadow-slate-300 transition duration-300 overflow-hidden">
                   <img class="w-full h-[322px] object-cover object-center" src="./img/Desktop - 3.jpg" alt="blog">
                   <div class="p-6">
-                      <p class="text-2xl text-dark uppercase font-light">SIT CAREERS FAIR 2020</p>
+                      <p class="text-2xl text-dark uppercase cursor-pointer">SIT CAREERS FAIR 2020</p>
                   </div>
                 </div>
               </div>
@@ -86,7 +86,7 @@
                 <div class="h-full rounded-xl shadow-slate-200 shadow-xl hover:shadow-slate-300 transition duration-300 overflow-hidden">
                   <img class="w-full h-[322px] object-cover object-center" src="./img/Desktop - 7.jpg" alt="blog">
                   <div class="p-6">
-                      <p class="text-2xl text-dark uppercase font-light">INT104 FINAL PROJECT</p>
+                      <p class="text-2xl text-dark uppercase cursor-pointer">INT104 FINAL PROJECT</p>
                   </div>
                 </div>
               </div>
@@ -95,7 +95,7 @@
                 <div class="h-full rounded-xl shadow-slate-200 shadow-xl hover:shadow-slate-300 transition duration-300 overflow-hidden">
                   <img class="w-full h-[322px] object-cover object-center" src="./img/Desktop - 8.jpg" alt="blog">
                   <div class="p-6">
-                      <p class="text-2xl text-dark uppercase font-light">SHOPPINGPAP</p>
+                      <p class="text-2xl text-dark uppercase cursor-pointer">SHOPPINGPAP</p>
                   </div>
                 </div>
               </div>
@@ -104,7 +104,7 @@
                 <div class="h-full rounded-xl shadow-slate-200 shadow-xl hover:shadow-slate-300 transition duration-300 overflow-hidden">
                   <img class="w-full h-[322px] object-cover object-center" src="./img/Desktop - 6.jpg" alt="blog">
                   <div class="p-6">
-                      <p class="text-2xl text-dark uppercase font-light">BLUZE (E-COMMERCE)</p>
+                      <p class="text-2xl text-dark uppercase cursor-pointer">BLUZE (E-COMMERCE)</p>
                   </div>
                 </div>
               </div>
@@ -120,7 +120,7 @@
                 <div class="h-full rounded-xl shadow-slate-200 shadow-xl hover:shadow-slate-300 transition duration-300 overflow-hidden">
                   <img class="w-full h-[322px] object-cover object-center" src="./img/Desktop - 2.jpg" alt="blog">
                   <div class="p-6">
-                      <p class="text-2xl text-dark uppercase font-light">WIP CAMP #12</p>
+                      <p class="text-2xl text-dark uppercase cursor-pointer">WIP CAMP #12</p>
                   </div>
                 </div>
               </div>
@@ -129,7 +129,7 @@
                 <div class="h-full rounded-xl shadow-slate-200 shadow-xl hover:shadow-slate-300 transition duration-300 overflow-hidden">
                   <img class="w-full h-[322px] object-cover object-center" src="./img/Desktop - 5.jpg" alt="blog">
                   <div class="p-6">
-                      <p class="text-2xl text-dark uppercase font-light">Hello World Dolphin 2020</p>
+                      <p class="text-2xl text-dark uppercase cursor-pointer">Hello World Dolphin 2020</p>
                   </div>
                 </div>
               </div>
@@ -145,7 +145,7 @@
             <div class="h-full rounded-xl shadow-slate-200 shadow-xl hover:shadow-slate-300 transition duration-300 overflow-hidden">
               <img class="w-full h-[322px] object-cover object-center" src="./img/Desktop - 9.jpg" alt="blog">
               <div class="p-6">
-                  <p class="text-2xl text-dark uppercase font-light">BOTIO - ORDER MARS</p>
+                  <p class="text-2xl text-dark uppercase cursor-pointer">BOTIO - ORDER MARS</p>
               </div>
             </div>
           </div>
@@ -154,12 +154,32 @@
             <div class="h-full rounded-xl shadow-slate-200 shadow-xl hover:shadow-slate-300 transition duration-300 overflow-hidden">
               <img class="w-full h-[322px] object-cover object-center" src="./img/Desktop - 10.jpg" alt="blog">
               <div class="p-6">
-                  <p class="text-2xl text-dark uppercase font-light">BOTIO - REDESIGN PROMOTION SYSTEM</p>
+                  <p class="text-2xl text-dark uppercase cursor-pointer">BOTIO - REDESIGN PROMOTION SYSTEM</p>
               </div>
             </div>
           </div>
       </div>
 </div>
+
+<!-- Footer -->
+<footer class="text-gray-600">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <span class="ml-3 text-xl">Chananan L.</span>
+      </a>
+      <p class="text-base text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Chananan Likitsarawit
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500">
+            <i class="fi fi-rr-envelope"></i>
+        </a>
+        <a class="ml-3 text-gray-500">
+            <i class="fi fi-rr-phone-call"></i>
+        </a>
+      </span>
+    </div>
+  </footer>
+
     <script>
         const btn = document.querySelector("button.mobile-menu-button");
         const menu = document.querySelector(".mobile-menu");
